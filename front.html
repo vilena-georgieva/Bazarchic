@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="all" href="css/resp-menu.css">
+	<link media="all" href="css/newarrivals_items.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	/***** get random number to avoid caching *****/
+	var noCache = 1 + Math.floor(Math.random() * 999999999999999);
+
+	var aurl = "src=";
+	var burl ="js/config.js?nocache=.js"+noCache+"";
+	document.write ("<script type='text/javascript'"+aurl+burl+">");
+	document.write ("</s"+"cript>");
+    </script>
+
+
+</head>
+<body>
+<div class="wrapper">
+   <div class="header clearfix">
+		 <div class="search-content">
+			 <div class="c-pages clearfix b-hidden">
+				 <ul>
+					<li><a href="#">Livrasion</a></li>
+						<li><a href="#">Retours</a></li>
+						<li><a href="#">Qui sommes-nous?</a></li>
+						<li><a href="#">Nous contacter</a></li>
+				 </ul>
+			 </div>
+			 <div class="search">
+						<form action="http://stores.ebay.fr/boutique-bazarchic?_rdc=1" method="get" name="Search" id="b-search" style="display: block;">
+						<input type="text" maxlength="300" size="30" name="_nkw" value="Rechercher..." id="b-search-box" onfocus="if(this.value==this.defaultValue) this.value=''; return false;" onblur="if(this.value=='') this.value=this.defaultValue; return false">
+						<input type="submit" value="" name="submit" id="b-search-button">
+						<input type="checkbox" class="b-hidden" value="1" checked name="LH_TitleDesc">
+					</form>
+					<ul id="header-news" class="p-mobile"><li><a href="#">Newsletter</a></li></ul>
+			 </div>
+
+
+		 </div>
+   	     <div class="logo"><a href="#"><img src="images/b-logo.png"></a></div>
+				 <div class="b-categories">
+				 <script>
+				 var aurl = "src=";
+				 var burl ="http://code.jquery.com/jquery-1.11.3.min.js";
+				 document.write ("<script type='text/javascript'"+aurl+burl+">");
+				 document.write ('</s'+'cript>');
+				 </script>
+
+				 <script>
+				 var burl ="js/resp-menu.js";
+				 document.write ("<script type='text/javascript'"+aurl+burl+">");
+				 document.write ('</s'+'cript>');
+				 </script>
+
+				 <div class="p-mainnav">
+				 		<a id="p-mobilecats" href="#0" class="p-hidden p-mobile" onclick="jQuery('#p-categoriesdrop').trigger('mousedown');">Categories</a>
+				 		<select id="p-categoriesdrop" class="p-mobile"></select>
+				 		<ul id="p-categories" class="clearfix p-mobilehide"></ul>
+						<ul id="news"><li><a href="#">Newsletter</a></li></ul>
+				 </div>
+
+
+
+				 <div id="dynamicCats" class="p-hidden">
+				 	<script>
+				 		var aurl = "src=";
+				 		var burl ="js/p_bazarchic.js";
+				 		document.write ("<script type='text/javascript'"+aurl+burl+">");
+				 		document.write ("</s"+"cript>");
+				 	</script>
+				 </div>
+
+				 <script>
+				 	getDynamicMenu('#p-categories');
+				 </script>
+				 </div>
+   </div>
+</div>
+
+<div id="promo-text" class="clearfix">
+<div class="wrapper">
+<p><span>Boutique officielle bazarchic</span> Livraison OFFERTE dès 50 € d'achats </p>
+</div>
+</div>
+
+<div class="rotation-banner">
+
+<script type="text/javascript">
+	var aurl = "src=";
+	var burl ="js/flexslider.js";
+	document.write ("<script type='text/javascript'"+aurl+burl+">");
+	document.write ("</s"+"cript>");
+</script>
+<div id="p-rotate" class="flexslider p-wrapper clearfix ">
+	<ul class="slides"></ul>
+</div>
+<script type="text/javascript">
+var pageID='StoreFront';
+if (pageID=='StoreFront') {
+	for (var i=1; i<11; i++) {
+		if (window['slideLink'+i] !== undefined) {
+			if (window['slideLink'+i]!="" && window['slideImg'+i]!="") {jQuery('#p-rotate .slides').append('<li><a href="'+window['slideLink'+i]+'" target="_top"><img src="'+window['slideImg'+i]+'" title="" alt="" /></a></li>');}
+		}
+	}
+}
+$('.flexslider').flexslider({
+	animation: "slide",
+	pauseOnHover: true,
+	smoothHeight: false,
+	start: function(slider){
+		$('.flexslider').resize();
+	}
+});
+</script>
+
+</div>
+
+
+
+
+<div class="wrapper">
+    <div id="promo-cats" class="clearfix">
+    	<ul class="promo-cats">
+
+    	</ul>
+    </div>
+    <script type="text/javascript">
+var pageID='StoreFront';
+if (pageID=='StoreFront') {
+	for (var i=1; i<11; i++) {
+		if (window['promoLink'+i] !== undefined) {
+			if (window['promoLink'+i]!="" && window['promoImg'+i]!="") {jQuery('#promo-cats .promo-cats').append('<li><a href="'+window['promoLink'+i]+'" target="_top"><img src="'+window['promoImg'+i]+'" title="" alt="" /><div id=\"rectangle\"><p class=\"cat-ttl\">'+window['catTtl'+i]+'</p></div></a></li>');}
+		}
+	}
+}
+
+</script>
+   <div class="best-sellers">
+    	 <p>Meilleures ventes</p>
+    </div>
+    <div class="grid clearfix">
+	<script type="text/javascript">
+					/***** get random number to avoid caching *****/
+					var noCache = 1 + Math.floor(Math.random() * 999999999999999);
+
+					var aurl = "src=";
+					var burl ="js/homepage_banners.js?nocache="+noCache+"";
+					document.write ("<script type='text/javascript'"+aurl+burl+">");
+					document.write ('</s'+'cript>');
+	</script>
+
+
+
+
+    </div>
+    <div class="new-arivals">
+		<h2 class="font-bold">
+			<span> Nouveautés </span>
+		</h2>
+		<div class="sldier_wrapper">
+			<ul class="bxslider">
+			</ul>
+		</div>
+
+		<div class="rel_mel"></div><div class="rel_loading">Loading ...</div>
+
+		<script>
+		var aurl = "src=";
+		var durl = "js/jquery.bxslider.min.js";
+		var iurl = "js/newarrivals_items.js";
+		document.write("<script type='text/javascript'" + aurl + durl + ">");
+		document.write('</s' + 'cript>');
+		document.write("<script type='text/javascript'" + aurl + iurl + ">");
+		document.write('</s' + 'cript>');
+
+
+		</script>
+    </div>
+</div>
+<div class="footer claearfix">
+	<ul class="foot-wrap">
+			<li><a href="#">Livrasion </a></li>
+	        <li><a href="#">Retours</a></li>
+	    	<li><a href="#">Qui sommes-nous?</a></li>
+	        <li><a href="#">Nous contacter</a></li>
+						<li><a href="#">Suivez nous</a>
+							<ul>
+									<li class="fb"><a href="#">Facebook</a></li>
+									<li class="tw"><a href="#">Twitter</a></li>
+									<li class="ln"><a href="#">LinkedIn</a></li>
+									<li class="pn"><a href="#">Pinterest</a></li>
+									<li class="yt"><a href="#">YouTube</a></li>
+							</ul>
+						</li>
+						<li class="ec"><a href="http://www.ecommerce-ink.com"><img src="http://www.wearepentagon.com/logo/eCommerce_ink_white.png"></a></li>
+
+		</ul>
+
+    </div>
+
+
+
+</body>
+</html>
